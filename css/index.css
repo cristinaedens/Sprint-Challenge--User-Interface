@@ -195,3 +195,65 @@ footer nav a {
 }
 
 /* This starts About Me Css */
+.about{
+    margin-top: 3%;
+    font-size: 16px;
+    margin-bottom: 1.5%;
+}
+
+button {
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    height: 4vh;
+    width:35.7%;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.content1{
+    display:flex;
+    border-top: 1px dashed black;
+}
+
+.strategy{
+    margin-top: 3% ;
+}
+
+.strategy h2{
+    margin-top: 3% ;
+}
+
+.working{
+    margin-top: 3% ;
+}
+
+.working h2{
+    margin-top: 3% ;
+}
+
+.content2{
+    display:flex;
+    border-top: 1px dashed black;
+}
+
+.office{
+    margin-top: 3% ;
+}
+
+.meeting{
+    margin-top: 3% ;
+}
+
+.office h2{
+    margin-top: 3% ;
+}
+
+.meeting h2{
+    margin-top: 3% ;
+}
