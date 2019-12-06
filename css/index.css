@@ -218,7 +218,16 @@ button a{
 
 .content1{
     display:flex;
-    border-top: 1px dashed black;
+    margin: 10px 20px 10px 20px;
+}
+
+.about h2, .about p{
+    margin: 0px 20px 5px 20px;
+}
+
+.about-border{
+border-bottom: 1px dashed black;
+padding-bottom: 20px;
 }
 
 .strategy{
@@ -239,16 +248,38 @@ button a{
 
 .content2{
     display:flex;
-    border-top: 1px dashed black;
+    margin: 10px 20px 10px 20px;
 }
 
 .office{
     margin-top: 3% ;
+    
 }
+
+.office img{
+   
+    padding-top: 5%;
+}
+
+.office-border, .meeting-border, .strategy-border, .working-border{
+    border-bottom: 1px dashed black;
+   width: 90%;
+}
+
 
 .meeting{
     margin-top: 3% ;
 }
+
+.meeting img{
+    
+    padding-top: 5%;
+}
+
+.content-block{
+    width: 100%;
+}
+
 
 .office h2{
     margin-top: 3% ;
@@ -257,3 +288,10 @@ button a{
 .meeting h2{
     margin-top: 3% ;
 }
+
+.content3{
+    margin: 50px 20px 50px 20px;
+  
+}
+
+
