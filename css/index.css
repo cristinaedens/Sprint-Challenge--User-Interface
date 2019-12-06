@@ -68,8 +68,29 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 1.5% auto;
 }
+
+.navi-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline ;
+}
+
+.navi-top a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lambda-logo{
+margin-bottom: 4%;
+margin-top: 2%;
+position: relative;
+right: 31px;
+}
+
 
 .top-content {
     display: flex;
@@ -112,6 +133,34 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1n){
+    background-color: teal;
+}
+.boxes .box:nth-child(2n){
+    background-color: gold;
+}
+.boxes .box:nth-child(3n){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4n){
+    background-color: coral;
+}
+.boxes .box:nth-child(5n){
+    background-color: crimson;
+}.boxes .box:nth-child(6n){
+    background-color: forestgreen;
+}.boxes .box:nth-child(7n){
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8n){
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9n){
+    background-color: indigo;
+}
+.boxes .box:nth-child(10n){
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +193,105 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* This starts About Me Css */
+.about{
+    margin-top: 3%;
+    font-size: 16px;
+    margin-bottom: 1.5%;
+}
+
+button {
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    height: 4vh;
+    width:35.7%;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.content1{
+    display:flex;
+    margin: 10px 20px 10px 20px;
+}
+
+.about h2, .about p{
+    margin: 0px 20px 5px 20px;
+}
+
+.about-border{
+border-bottom: 1px dashed black;
+padding-bottom: 20px;
+}
+
+.strategy{
+    margin-top: 3% ;
+}
+
+.strategy h2{
+    margin-top: 3% ;
+}
+
+.working{
+    margin-top: 3% ;
+}
+
+.working h2{
+    margin-top: 3% ;
+}
+
+.content2{
+    display:flex;
+    margin: 10px 20px 10px 20px;
+}
+
+.office{
+    margin-top: 3% ;
+    
+}
+
+.office img{
+   
+    padding-top: 5%;
+}
+
+.office-border, .meeting-border, .strategy-border, .working-border{
+    border-bottom: 1px dashed black;
+   width: 90%;
+}
+
+
+.meeting{
+    margin-top: 3% ;
+}
+
+.meeting img{
+    
+    padding-top: 5%;
+}
+
+.content-block{
+    width: 100%;
+}
+
+
+.office h2{
+    margin-top: 3% ;
+}
+
+.meeting h2{
+    margin-top: 3% ;
+}
+
+.content3{
+    margin: 50px 20px 50px 20px;
+  
+}
+
+
